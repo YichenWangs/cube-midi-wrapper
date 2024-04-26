@@ -1,0 +1,20 @@
+{
+  "name": "cube-midi-router",
+  "version": "1.0.0",
+  "description": "A simple node.js script to route cube instrument midi messages to other devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "midi",
+    "easymidi",
+    "modejs"
+  ],
+  "author": "yichenwangs",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "easymidi": "^3.1.0",
+    "ws": "^8.16.0"
+  }
+}
